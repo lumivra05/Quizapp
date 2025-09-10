@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #003973;
+  --secondary-color: #f48023;
+  --white-color: #ffffff;
+}
+
+/* Main header background */
+.main-header {
+  background-color: #87cefa;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Header content container */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left: logo */
+.logo a {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Right: nav links */
+.nav-links a {
+  margin-left: 15px;
+  color: var(--white-color);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Active route */
+a.active {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+/* Hover effect */
+a.ant-btn:hover {
+  background-color: white;
+  color: var(--white-color);
+}
+
+/* Body padding */
+body {
+  margin: 0;
+  padding-top: 64px;
+  background-color: #f8f8f8;
+}
